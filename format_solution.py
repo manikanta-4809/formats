@@ -21,7 +21,7 @@ print(usernames)  # ['@jdoe', '@jsmith']
  
 # Assignmnet 2 Easy : ['jhondoe@minfytech.com']
 
-emails = format_user_names(users, lambda user: f"{user['last_name'].lower()}{user['first_name'].lower()}@minfytech.com")
+emails = format_user_names(users, lambda user: f"{user['first_name'].lower()}{user['last_name'].lower()}@minfytech.com")
 print(emails)  # ['johndoe@minfytech.com', 'janesmith@minfytech.com']
  
  
